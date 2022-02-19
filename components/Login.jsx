@@ -5,7 +5,7 @@ const Login = () => {
   const { authenticate } = useMoralis()
 
   return (
-    <div className="relative bg-[#121212]">
+    <div className="relative h-screen overflow-hidden bg-[#121212]">
       <div className="absolute z-50 flex h-4/6 w-full flex-col items-center justify-center space-y-2">
         {/* logo */}
         <Image
@@ -23,7 +23,7 @@ const Login = () => {
         </button>
       </div>
       {/* Login form */}
-      <div className="h-screen w-full">
+      <div className=" w-full">
         <Image
           src="https://links.papareact.com/55n"
           layout="fill"
